@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Kaeliz</title>
+<meta name="description" content="How Kaeliz collects, uses and protects your information.">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="canonical" href="https://kaeliz.app/privacy/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=boska@400&display=swap">
+<style>
+/* Same tokens and type as kaeliz.app; one reading column for the policy */
+:root {
+  --obsidian: #0B0B0C;
+  --panel: #131215;
+  --line: #2A2620;
+  --ivory: #F6F1E7;
+  --taupe: #CDBFA8;
+  --muted: #8E8779;
+  --gold: #D4AF6A;
+  --gold-soft: #E9D3A5;
+  --display: "Boska", "Canela", Georgia, "Times New Roman", serif;
+  --body: "Satoshi", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { background: var(--obsidian); }
+body { background: var(--obsidian); color: var(--ivory); font-family: var(--body); font-weight: 400; font-size: 17px; line-height: 1.65; margin: 0; -webkit-font-smoothing: antialiased; }
+a { color: var(--gold); }
+.wrap { width: 100%; max-width: 1240px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 48px); }
+
+/* Top bar (same as the home page) */
+.top { padding-top: calc(env(safe-area-inset-top, 0px) + 26px); }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.wordmark { font-family: var(--body); font-weight: 400; font-size: 19px; letter-spacing: 0.62em; color: var(--ivory); text-decoration: none; padding-left: 0.62em; margin-left: -0.62em; }
+.top-cta { font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-soft); text-decoration: none; border: 1px solid rgba(212,175,106,.45); border-radius: 999px; padding: 9px 18px; }
+.top-cta:hover { background: rgba(212,175,106,.12); }
+
+/* Policy */
+.doc { max-width: 760px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 48px); padding-block: clamp(56px, 8vw, 96px) clamp(64px, 9vw, 112px); }
+.eyebrow { font-size: 12.5px; letter-spacing: 0.32em; text-transform: uppercase; color: var(--gold); margin: 0; }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(44px, 6vw, 68px); line-height: 1.04; letter-spacing: -0.01em; margin: 14px 0 10px; text-wrap: balance; }
+.meta { font-family: var(--mono); font-size: 13px; color: var(--muted); margin: 0; letter-spacing: .02em; }
+.glance { background: var(--panel); border: 1px solid rgba(212,175,106,.28); border-radius: 22px; padding: clamp(20px, 3vw, 30px); margin: 40px 0 8px; }
+.glance h2 { margin-top: 0; font-size: clamp(26px, 3vw, 32px); }
+.glance ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 8px; color: var(--taupe); }
+.glance li::marker { color: var(--gold); }
+h2 { font-family: var(--display); font-weight: 400; font-size: clamp(28px, 3.2vw, 36px); line-height: 1.12; margin: 56px 0 12px; text-wrap: balance; }
+h2 .n { font-family: var(--mono); font-size: 13px; letter-spacing: .1em; color: var(--gold); vertical-align: 0.6em; margin-right: 12px; }
+h3 { font-size: 15px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-soft); margin: 28px 0 6px; }
+p, li { max-width: 65ch; color: var(--taupe); }
+p strong, li strong { color: var(--ivory); font-weight: 500; }
+ul { padding-left: 1.2rem; }
+li + li { margin-top: 6px; }
+li::marker { color: var(--gold); }
+.table-wrap { overflow-x: auto; margin: 14px 0; border: 1px solid var(--line); border-radius: 18px; }
+table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 14px 18px; }
+th { font-size: 12px; letter-spacing: .24em; text-transform: uppercase; color: var(--muted); font-weight: 400; border-bottom: 1px solid var(--line); }
+td { color: var(--taupe); }
+td:first-child { color: var(--ivory); }
+tr + tr td { border-top: 1px solid var(--line); }
+.contact { color: var(--gold-soft); user-select: all; }
+
+/* Footer (same as the home page) */
+footer { border-top: 1px solid var(--line); padding-block: 28px calc(28px + env(safe-area-inset-bottom, 0px)); color: var(--muted); font-size: 13.5px; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 10px 24px; justify-content: space-between; }
+footer a { color: var(--taupe); text-decoration: none; }
+.tagline { letter-spacing: .3em; color: var(--gold-soft); }
+.foot-brand { display: inline-flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.foot-mark { letter-spacing: .5em; color: var(--ivory); font-size: 13px; }
+@media (max-width: 600px) { .wordmark { font-size: 17px; } .top-cta { padding: 8px 14px; font-size: 12px; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="wordmark" href="/" aria-label="Kaeliz home">KΛELIZ</a>
+    <a class="top-cta" href="/#join">Join the beta</a>
+  </div>
+</header>
+
+<main class="doc">
+    <p class="eyebrow">Legal</p>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Kaeliz Technologies Inc. · Effective October 10, 2026</p>
+
+  <section class="glance" aria-label="Privacy at a glance">
+    <h2>At a glance</h2>
+    <ul>
+      <li>We collect what you put into Kaeliz so it can organize your life for you. That's it.</li>
+      <li>We never sell your information and we don't show ads.</li>
+      <li>Your words are sent to our AI provider only to sort them and write replies. They aren't used to train AI models.</li>
+      <li>Voice, location, calendar, contacts and photos are only used when you choose, and you can turn each one off in your iPhone settings.</li>
+      <li>You can delete anything Kaeliz remembers, or your whole account, from inside the app.</li>
+    </ul>
+  </section>
+
+  <h2><span class="n">1</span>Who we are</h2>
+  <p>Kaeliz is a personal assistant app made by Kaeliz Technologies Inc., a company based in Ontario, Canada ("Kaeliz", "we", "us"). This policy explains what information the Kaeliz app collects, how we use it, and the choices you have. Questions can go to <span class="contact">support@kaeliz.app</span>.</p>
+
+  <h2><span class="n">2</span>Information we collect</h2>
+  <h3>Your account</h3>
+  <p>Your first name and email address. If you sign in with Apple or Google, we receive the name and email they share with us (Apple lets you hide your real email). Passwords are handled by our sign-in provider and are never visible to us.</p>
+
+  <h3>What you add to Kaeliz</h3>
+  <p>The things you type, say or save: tasks, reminders, follow-ups, lists, saved links, photos and notes, journal entries, life areas, and the people you choose to add. This is the core of the app, and it's stored so you can see it on any device you sign in on.</p>
+
+  <h3>Things Kaeliz remembers about you</h3>
+  <p>When you chat, Kaeliz may save short facts you tell it (for example "my daughter starts school at 8") so it can help you better. You can see, add to, or delete every one of these in More, then About you.</p>
+
+  <h3>Phone features you allow</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Feature</th><th>What it's used for</th><th>What we keep</th></tr></thead>
+      <tbody>
+        <tr><td>Microphone and speech recognition</td><td>Turning what you say into text when you tap the mic.</td><td>Only the text you choose to keep. We don't store recordings. Apple processes the speech, on your phone where possible.</td></tr>
+        <tr><td>Location</td><td>Showing your local weather.</td><td>We don't store your location. Approximate coordinates are sent to our weather provider to get the forecast.</td></tr>
+        <tr><td>Calendar</td><td>Showing today's events next to your tasks.</td><td>Events are read on your phone to display them. We don't copy your calendar to our servers.</td></tr>
+        <tr><td>Contacts</td><td>Adding someone you want to follow up with.</td><td>Only the contacts you pick, such as their name and phone number.</td></tr>
+        <tr><td>Photos and camera</td><td>Saving a photo, like an outfit or a recipe.</td><td>Only the photos you choose to save.</td></tr>
+        <tr><td>Notifications</td><td>Reminders and gentle nudges.</td><td>Your reminder times, so they can fire on time.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Basic technical information</h3>
+  <p>Like most apps, our servers keep basic logs (such as the time of a request and error details) to keep Kaeliz running and secure. We don't use advertising trackers, and we don't track you across other apps or websites.</p>
+
+  <h2><span class="n">3</span>How we use your information</h2>
+  <ul>
+    <li>To provide Kaeliz: sorting what you say into tasks and lists, building your daily plan, sending reminders, and answering you in chat.</li>
+    <li>To remember what matters to you, so Kaeliz gets more helpful over time.</li>
+    <li>To keep your account secure and the app working, including fixing bugs.</li>
+    <li>To reply when you contact us or send feedback.</li>
+  </ul>
+  <p>We don't sell your information, rent it, or use it for advertising.</p>
+
+  <h2><span class="n">4</span>Who we share it with</h2>
+  <p>We share information only with the service providers that run Kaeliz for us, and only what they need:</p>
+  <ul>
+    <li><strong>Supabase</strong> stores your account and the things you add, and handles sign-in.</li>
+    <li><strong>Anthropic</strong> provides the AI that sorts your brain dumps and writes chat replies. The text you send is processed to produce a response and, under Anthropic's commercial terms, is not used to train their models.</li>
+    <li><strong>Apple</strong> handles speech recognition, Sign in with Apple, and app delivery through the App Store and TestFlight. <strong>Google</strong> handles Sign in with Google if you choose it.</li>
+    <li><strong>Open-Meteo</strong> provides weather and air quality for the approximate location you allow.</li>
+    <li>If you turn on a daily verse, the app requests the verse from a public scripture service. No personal information is included.</li>
+  </ul>
+  <p>If you use a shared space, the people you invite can see what you share there. We may also disclose information if the law requires it, or to protect the safety of our users.</p>
+  <p>Our providers may store and process information outside Canada, including in the United States, where it may be accessible to authorities under local law.</p>
+
+  <h2><span class="n">5</span>How long we keep it</h2>
+  <p>We keep your information while your account is open. When you delete something, it's removed from the app. When you delete your account, your information is permanently deleted from our systems, apart from limited records we must keep by law or that remain briefly in backups before they expire.</p>
+
+  <h2><span class="n">6</span>Your choices and rights</h2>
+  <ul>
+    <li><strong>See and change your information</strong> anytime in the app.</li>
+    <li><strong>Delete what Kaeliz remembers</strong> in More, then About you.</li>
+    <li><strong>Delete your account</strong> in More, then Delete account. This removes everything.</li>
+    <li><strong>Turn off phone permissions</strong> (microphone, location, calendar, contacts, photos, notifications) in your iPhone Settings, under Kaeliz.</li>
+    <li><strong>Ask us</strong> for a copy of your information, or to correct or delete it, by emailing <span class="contact">support@kaeliz.app</span>.</li>
+  </ul>
+  <p>Depending on where you live, you may have additional rights under laws such as Canada's PIPEDA. If you're not satisfied with our answer, you can contact the Office of the Privacy Commissioner of Canada.</p>
+
+  <h2><span class="n">7</span>Security</h2>
+  <p>Your information is sent over encrypted connections, and each person's data is kept private to their own account. No system is perfectly secure, so please use a strong password and keep your phone locked.</p>
+
+  <h2><span class="n">8</span>Children</h2>
+  <p>Kaeliz is not meant for children under 13, and we don't knowingly collect their information. If you believe a child has given us information, contact us and we'll delete it.</p>
+
+  <h2><span class="n">9</span>Changes to this policy</h2>
+  <p>If we change this policy, we'll update the date at the top. If the changes are important, we'll let you know in the app.</p>
+
+  <h2><span class="n">10</span>Contact us</h2>
+  <p>Kaeliz Technologies Inc., Ontario, Canada<br>Email: <span class="contact">support@kaeliz.app</span></p>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="foot-brand"><span class="foot-mark">KΛELIZ</span> Your life. Intelligently orchestrated.</span>
+    <span>© 2026 Kaeliz Technologies Inc.</span>
+    <span><a href="/privacy/">Privacy</a> &nbsp;·&nbsp; <a href="mailto:hello@kaeliz.app">hello@kaeliz.app</a></span>
+  </div>
+</footer>
+</body>
+</html>
