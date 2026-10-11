@@ -231,7 +231,7 @@ footer a { color: var(--taupe); text-decoration: none; }
         <h4>Your account</h4>
         <p>Your first name and email address. If you sign in with Apple or Google, we receive the name and email they share with us (Apple lets you hide your real email). Passwords are handled by our sign-in provider and are never visible to us.</p>
         <h4>What you add to Kaeliz</h4>
-        <p>The things you type, say or save: tasks, reminders, follow-ups, lists, saved links, photos and notes, journal entries, life areas, and the people you choose to add. This is the heart of the app, and it's stored so you can see it on any device you sign in on.</p>
+        <p>The things you type, say or save: tasks, reminders, follow-ups, lists, saved links, photos, files and notes, journal entries, life areas, and the people you choose to add. This is the heart of the app, and it's stored so you can see it on any device you sign in on.</p>
         <h4>What Kaeliz remembers about you</h4>
         <p>When you chat, Kaeliz may save short facts you tell it, like "my daughter starts school at 8", so it can help you better. You can see, add to, or delete every one of these in <strong>More, then About you</strong>.</p>
         <h4>Phone features you allow</h4>
@@ -243,6 +243,7 @@ footer a { color: var(--taupe); text-decoration: none; }
           <div class="cmp-row" role="row"><span role="cell">Calendar</span><span role="cell">Today's events next to your tasks.</span><span role="cell">Read on your phone only. Not copied to our servers.</span></div>
           <div class="cmp-row" role="row"><span role="cell">Contacts</span><span role="cell">Adding someone to follow up with, and finding the right number or email when Kaeliz drafts a message for you.</span><span role="cell">Only the contacts you pick or confirm. The search happens on your phone and your address book is never uploaded.</span></div>
           <div class="cmp-row" role="row"><span role="cell">Photos and camera</span><span role="cell">Saving an outfit, a recipe, a moment.</span><span role="cell">Only the photos you choose to save.</span></div>
+          <div class="cmp-row" role="row"><span role="cell">Files</span><span role="cell">Saving a contract, invoice or lease so you can find it later.</span><span role="cell">Only the files you choose to save.</span></div>
           <div class="cmp-row" role="row"><span role="cell">Notifications</span><span role="cell">Reminders and gentle nudges.</span><span role="cell">Your reminder times, so they arrive on time.</span></div>
         </div>
         <h4>Basic technical information</h4>
@@ -267,7 +268,7 @@ footer a { color: var(--taupe); text-decoration: none; }
         <p>Only the service providers that run Kaeliz for us, and only what they need:</p>
         <ul class="ticks">
           <li><span><strong>Supabase</strong> stores your account and the things you add, and handles sign-in.</span></li>
-          <li><span><strong>Anthropic</strong> provides the AI that sorts your brain dumps and writes chat replies. Your text is processed to produce a response and, under Anthropic's commercial terms, isn't used to train their models.</span></li>
+          <li><span><strong>Anthropic</strong> provides the AI that sorts your brain dumps, writes chat replies, and reads the links, photos and documents you save so it can title and file them. What you send is processed to produce a response and, under Anthropic's commercial terms, isn't used to train their models.</span></li>
           <li><span><strong>Deepgram</strong> turns your voice recordings into text and creates Kaeliz's spoken voice. We've turned off Deepgram's program that uses customer audio to improve its AI, so your recordings are kept only while they're processed and never used for training.</span></li>
           <li><span><strong>Apple</strong> handles backup speech recognition, Sign in with Apple, and app delivery. <strong>Google</strong> handles Sign in with Google if you choose it.</span></li>
           <li><span><strong>Open-Meteo</strong> provides weather and air quality for the approximate location you allow.</span></li>
