@@ -168,7 +168,7 @@ footer a { color: var(--taupe); text-decoration: none; }
       <p class="eyebrow">Privacy policy</p>
       <h1 id="title">Your life is personal. <em>We keep it that way.</em></h1>
       <p class="lede">Kaeliz only works because you trust it with what's on your mind. Here's exactly what we collect, why, and how you stay in control.</p>
-      <p class="meta">Kaeliz Technologies Inc. · Effective October 10, 2026</p>
+      <p class="meta">Kaeliz Technologies Inc. · Effective October 11, 2026</p>
     </div>
   </div>
 </section>
@@ -237,7 +237,8 @@ footer a { color: var(--taupe); text-decoration: none; }
         <h4>Phone features you allow</h4>
         <div class="compare" role="table" aria-label="Phone permissions">
           <div class="cmp-head" role="row"><span role="columnheader">Feature</span><span role="columnheader">Used for</span><span role="columnheader">What we keep</span></div>
-          <div class="cmp-row" role="row"><span role="cell">Microphone and speech</span><span role="cell">Turning what you say into text when you tap the mic.</span><span role="cell">Only the text you keep. No recordings. Apple processes speech, on your phone where possible.</span></div>
+          <div class="cmp-row" role="row"><span role="cell">Microphone and speech</span><span role="cell">Turning what you say into text when you tap the mic.</span><span role="cell">Only the text you keep. Your recording is sent securely to Deepgram to be written out and isn't kept afterwards. If that's unavailable, Apple's speech recognition on your phone is used.</span></div>
+          <div class="cmp-row" role="row"><span role="cell">Kaeliz's voice</span><span role="cell">Reading replies, verses and your morning greeting out loud.</span><span role="cell">Nothing. The words are sent to Deepgram to create the voice, and not stored.</span></div>
           <div class="cmp-row" role="row"><span role="cell">Location</span><span role="cell">Your local weather.</span><span role="cell">Nothing stored. Approximate coordinates go to our weather provider.</span></div>
           <div class="cmp-row" role="row"><span role="cell">Calendar</span><span role="cell">Today's events next to your tasks.</span><span role="cell">Read on your phone only. Not copied to our servers.</span></div>
           <div class="cmp-row" role="row"><span role="cell">Contacts</span><span role="cell">Adding someone to follow up with.</span><span role="cell">Only the contacts you pick.</span></div>
@@ -245,7 +246,7 @@ footer a { color: var(--taupe); text-decoration: none; }
           <div class="cmp-row" role="row"><span role="cell">Notifications</span><span role="cell">Reminders and gentle nudges.</span><span role="cell">Your reminder times, so they arrive on time.</span></div>
         </div>
         <h4>Basic technical information</h4>
-        <p>Our servers keep basic logs, such as the time of a request and error details, to keep Kaeliz running and secure. We don't use advertising trackers, and we don't track you across other apps or websites.</p>
+        <p>Our servers keep basic logs, such as the time of a request and error details, to keep Kaeliz running and secure. The app also records simple usage events linked to your account, such as when you open Kaeliz, use the mic, finish a task, or when the app crashes, so we can see what works and fix what doesn't. These events never include what you write, say or save, and they're stored in our own database, not with an analytics company. We don't use advertising trackers, and we don't track you across other apps or websites.</p>
       </article>
 
       <article class="clause" id="use">
@@ -267,7 +268,8 @@ footer a { color: var(--taupe); text-decoration: none; }
         <ul class="ticks">
           <li><span><strong>Supabase</strong> stores your account and the things you add, and handles sign-in.</span></li>
           <li><span><strong>Anthropic</strong> provides the AI that sorts your brain dumps and writes chat replies. Your text is processed to produce a response and, under Anthropic's commercial terms, isn't used to train their models.</span></li>
-          <li><span><strong>Apple</strong> handles speech recognition, Sign in with Apple, and app delivery. <strong>Google</strong> handles Sign in with Google if you choose it.</span></li>
+          <li><span><strong>Deepgram</strong> turns your voice recordings into text and creates Kaeliz's spoken voice. We've turned off Deepgram's program that uses customer audio to improve its AI, so your recordings are kept only while they're processed and never used for training.</span></li>
+          <li><span><strong>Apple</strong> handles backup speech recognition, Sign in with Apple, and app delivery. <strong>Google</strong> handles Sign in with Google if you choose it.</span></li>
           <li><span><strong>Open-Meteo</strong> provides weather and air quality for the approximate location you allow.</span></li>
           <li><span>If you turn on a daily verse, the app requests it from a public scripture service. No personal information is included.</span></li>
         </ul>
